@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: Roboto;
+}
+
+.card-container {
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    width: 80%;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+
+.btn1 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 125px 125px 125px 125px;
+}
+
+.btn2 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 26px;
+}
+
+.btn3 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 26px;
+}
+
+.btn4 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 26px;
+}
+
+.buttons-ele {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reset-button {
+    height: 25px;
+    width: 70px;
+    margin-top: 10px;
+}
+
+.button-container {
+    margin-left: 180px;
+}
+
+.primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-image {
+    background-color: #ffffff;
+    height: 60px;
+    width: 70px;
+}
+
+.opposite-primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 580px;
+
+}
+
+@media screen and (min-width:992px) {
+    .opposite-primary-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 650px;
+
+    }
+}
+
+.primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+
+}
+
+.opposite-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 100% 100% 100% 100%;
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.reset-button {
+    border-radius: 4px;
+    border-width: 5px;
+    width: 70px;
+    height: 50px;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
